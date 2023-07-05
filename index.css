@@ -1,0 +1,38 @@
+* {
+    font-family: Helvetica, sans-serif, Arial;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.header {
+    margin: 0;
+    padding: 5px;
+    color: rgb(173, 216, 230);
+    text-shadow: 2px 2px 4px rgb(173, 214, 230);
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.squares-container {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    gap: 0;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px;
+}
+
+.square {
+    border: 1px solid black;
+}
