@@ -80,4 +80,30 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    background-color: #87ceeb;
+    color: #1b7599;
+    border-color: #659db3;
+    font-weight: bold;
 }
+
+.buttons.toggle {
+    color: #87ceeb;
+    background-color: #1b7599;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-container p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.slider-container output {
+    font-size: 14px;
+}
+
+
