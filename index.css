@@ -26,8 +26,8 @@ body {
 
 .squares-container {
     display: grid;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     gap: 0;
     border: 1px solid black;
     box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px;
@@ -35,4 +35,49 @@ body {
 
 .square {
     border: 1px solid black;
+}
+
+.color-header {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(173, 214, 230);
+    text-shadow: 1px 1px 4px rgb(173, 214, 230);
+}
+
+.settings {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 8px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px;
+}
+
+.rgb {
+    padding: 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-top: -6px;
+}
+
+.hex-value {
+    width: 145px;
+    height: 30px;
+}
+
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
